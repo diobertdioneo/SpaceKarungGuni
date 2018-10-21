@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1218980659460046}
+  m_IsPrefabAsset: 1
+--- !u!1 &1218980659460046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4756393419042806}
+  - component: {fileID: 114620073255326316}
+  m_Layer: 0
+  m_Name: DebrisSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4756393419042806
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1218980659460046}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114620073255326316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1218980659460046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e67a65201973f4a9742b11a7fb8efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabRock: {fileID: 1202037672283754, guid: 58488935920364f4d98f36e1f633530e, type: 2}
+  prefabDeadSat0: {fileID: 1791821052904078, guid: 9147795c5702a3c4abdfc1f527076be3,
+    type: 2}
+  prefabMicroMet: {fileID: 1046989231349796, guid: 35bd7472490ca054f871180d2ff2baab,
+    type: 2}
+  prefabSatPanel: {fileID: 1345679109911600, guid: 27cb26e2796027544b6125d2553cc51b,
+    type: 2}
+  prefabUFO: {fileID: 1054832848330014, guid: cf46df1630625624a9509d97878c2f91, type: 2}
+  prefabToothbrush: {fileID: 1562558639378364, guid: 351774a0bbfed7f4cbf8c134d037bfa8,
+    type: 2}
+  prefabBolt: {fileID: 1554476017644244, guid: 1126d652fa02dea4295e77c53afe50ab, type: 2}
+  spawnCooldown: 5
